@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e2001A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #e2001A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    width: 75%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #e2001A;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+
+a {
+    color: #e2001A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+b {
+    color: #e2001A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+c {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+f {
+    color: #080808;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+c:hover {
+    text-decoration: underline;
+}
+
+/* Tabellen-Stile */
+.termin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Tabelle zentrieren */
+}
+
+.termin-table th, .termin-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Roter Hintergrund der ersten Zeile */
+.termin-table thead tr {
+    background-color: #e2001A;
+    color: white;
+}
+
+/* Zentrierung des Inhalts */
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+/* Aktionsbutton */
+.action-button {
+    background-color: #e2001A;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.action-button:hover {
+    background-color: #c00016;
+}
+
+.custom-list {
+    list-style: none;
+    padding-left: 50px;
+}
+  
+.custom-list li {
+    position: relative;
+    padding-left: 28px; /* Platz für dein Icon */
+    margin-bottom: 8px;
+}
+  
+.custom-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 16px;
+    height: 16px;
+    background-image: url('Bilder/Aufzählungszeichen_Awo-logo.png'); /* Pfad ggf. anpassen */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.side-list {
+    list-style: none;
+    padding-left: 0px;
+}
+  
+.side-list li {
+    position: relative;
+    padding-left: 28px; /* Platz für dein Icon */
+    margin-bottom: 8px;
+}
+  
+.side-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 16px;
+    height: 16px;
+    background-image: url('Bilder/Aufzählungszeichen_Awo-logo.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+  
+
